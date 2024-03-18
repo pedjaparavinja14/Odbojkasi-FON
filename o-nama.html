@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <title>Odbojkaši FON</title>
+  </head>
+  <div class="container">
+    <nav>
+      <div class="navbar">
+        <div id= "myLinks">
+        <a href="index.html" href="#"><i class="fa fa-fw fa-home"></i> Početna</a>
+        <a href="liga.html"><i class="fa fa-fw fa-university"></i> Liga</a>
+        <a href="kontakt.html"><i class="fa fa-fw fa-envelope"></i> Kontakt</a>
+        <a href="o-nama.html"><i class="fa fa-fw fa-user"></i> O nama</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="burgercina()">
+        <i class="fa fa-bars"></i>
+      </a>
+      </div>
+    </nav>
+    <div id="sidebar">
+      <h2>Članovi ekipe</h2>
+      <ul>
+        <li>Aleksa Vukosavljević (C)</li>
+        <li>Filip Trifunović</li>
+        <li>Dimitrije Dobrijević</li>
+        <li>Bogdan Vujić</li>
+        <li>Srđan Krstić</li>
+        <li>Đorđije Radović</li>
+        <li>Predrag Paravinja</li>
+        <li>Miloš Peruničić</li>
+        <li>Milenko Kozić</li>
+        <li>Ognjen 'Zemi' Vasić</li>
+        <li>David Obadović</li>
+        <li>Darko Maljković</li>
+        <li>David 'Žoc' Lazović (COACH)</li>
+      </ul>
+    </div>
+    <main>
+      <h2 style="padding: 15px">Istorija ekipe</h2>
+
+      <p>
+        Nažalost, zbog pandemije izazvane COVID-om, takmičenja su bila prekinuta
+        dve godine.
+      </p>
+      <p>
+        Pre toga, naši odbojkaši su imali sjajne uspehe u studentskim
+        takmičenjima.
+      </p>
+      <p>
+        U SUUB ligi, zauzeli su 4. mesto dve godine za redom, dok su dva puta
+        zaredom (2018 i 2019) osvajali USSB ligu.
+      </p>
+      <p>
+        Takođe, možemo izdvojiti i međunarodne uspehe - 2. mesto 2018 i 1. mesto
+        2019. godine u Istanbulu.
+      </p>
+      <p>
+        Pogledajte
+        <a
+          href="images/fon18.jpg"
+          data-fancybox="gallery"
+          data-caption="2018 - polufinale"
+        >
+          galeriju
+        </a>
+        sa članovima iz prethodnih godina.
+      </p>
+
+      <a
+        href="images/fon19.jpg"
+        data-fancybox="gallery"
+        data-caption="2019 - USSB"
+      >
+      </a>
+      <a
+        href="images/fon191.jpg"
+        data-fancybox="gallery"
+        data-caption="2019 - polufinale"
+      >
+      </a>
+      <a
+        href="images/fon20.jpg"
+        data-fancybox="gallery"
+        data-caption="2020 - USSB"
+      >
+      </a>
+      <br />
+      <br />
+      <p>ARHIVA: Pogledajte utakmicu finala lige iz 2015 godine!</p>
+      <a href="https://www.youtube.com/embed/mtxDW86GEqM" data-fancybox>
+        Video
+      </a>
+
+      <br />
+      <br />
+    </main>
+    <footer>
+      <img src="images/logofon.png" alt="" style="height: 60px" />
+      <p>Trenutno vreme je: <span id="date-time"></span>.</p>
+    </footer>
+  </div>
+  <!-- <script>
+    var dt = new Date();
+   var vreme = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+   document.getElementById('date-time').innerHTML=vreme;
+</script> -->
+  <script src="./script/script.js"></script>
+</html>

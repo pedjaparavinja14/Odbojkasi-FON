@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Odbojkaši FON</title>
+</head>
+
+
+<div class="container">
+  <nav>
+    <div class="navbar">
+      <div id= "myLinks">
+      <a href="index.html" href="#"><i class="fa fa-fw fa-home"></i> Početna</a>
+      <a href="liga.html"><i class="fa fa-fw fa-university"></i> Liga</a>
+      <a href="kontakt.html"><i class="fa fa-fw fa-envelope"></i> Kontakt</a>
+      <a href="o-nama.html"><i class="fa fa-fw fa-user"></i> O nama</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="burgercina()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+  </nav>
+  <main>
+    <h1>SUUB Liga</h1>
+    <p>Odbojkaši FON-a ove godine učestvuju u SUUB ligi. Poseti sajt lige <a
+        href="https://www.suub.bg.ac.rs/odbojka/odbojka-muskarci/%d1%80%d0%b5%d0%b7%d1%83%d0%bb%d1%82%d0%b0%d1%82%d0%b8/">ovde</a>
+    </p>
+    <br>
+    <h2>GRUPA 1</h2>
+    <div style="overflow: auto;">
+      <table class="tabela">
+        <tr>
+          <th>Fakultet</th>
+          <th class="sakrij">Odigrane utakmice</th>
+          <th class="sakrij">Setovi</th>
+          <th class="sakrij">Poeni</th>
+          <th>Bodovi</th>
+        </tr>
+        <tr>
+          <td>Fakultet organizacionih nauka</td>
+          <td class="sakrij">1</td>
+          <td class="sakrij">2:0</td>
+          <td class="sakrij">50:0</td>
+          <td>3</td>
+        </tr>
+        </tr>
+        <tr>
+          <td>Elektrotehnički fakultet</td>
+          <td class="sakrij">1</td>
+          <td class="sakrij">2:0</td>
+          <td class="sakrij">50:41</td>
+          <td>3</td>
+        </tr>
+        </tr>
+        <tr>
+          <td>Medicinski fakultet</td>
+          <td class="sakrij">1</td>
+          <td class="sakrij">0:2</td>
+          <td class="sakrij">41:50</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>FSFV</td>
+          <td class="sakrij">1</td>
+          <td class="sakrij">0:2</td>
+          <td class="sakrij">0:50</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Stomatološki fakultet</td>
+          <td class="sakrij">0</td>
+          <td class="sakrij">0:0</td>
+          <td class="sakrij">0:0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Filozofski fakultet</td>
+          <td class="sakrij">0</td>
+          <td class="sakrij">0:0</td>
+          <td class="sakrij">0:0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Građevinski fakultet</td>
+          <td class="sakrij">0</td>
+          <td class="sakrij">0:0</td>
+          <td class="sakrij">0:0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </div>
+
+
+  </main>
+  <div id="sidebar">
+    <img src="images/mikasa.png" style="width: 150px; height: 150px;" alt="">
+    <h2>Raspored utakmica</h2>
+    <ul>
+      <li>19.11 FON:DIF</li>
+      <li>6.11 FON:Medicinski</li>
+      <li>3.12 FON:ETF</li>
+      <li>10.12 FON:Građevinski</li>
+      <li>17.12 FON:Stomatološki</li>
+    </ul>
+  </div>
+  <footer>
+    <img src="images/logofon.png" alt="" style="height: 50px;">
+    <p>Trenutno vreme je: <span id='date-time'></span>.</p>
+  </footer>
+</div>
+
+<!-- <script>
+  var dt = new Date();
+ var vreme = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+ document.getElementById('date-time').innerHTML=vreme;
+</script> -->
+<script src="./script/script.js"></script>
+
+
+
+
+</html>
